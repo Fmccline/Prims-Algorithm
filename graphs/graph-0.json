@@ -1,0 +1,33 @@
+{
+  "nodes":[
+    {
+      "name": "A",
+      "neighbors": ["B", "E"],
+      "weights": [3, 10]
+    },
+    {
+      "name": "B",
+      "neighbors": ["C"],
+      "weights": [5]
+    },
+    {
+      "name": "C",
+      "neighbors": ["D"],
+      "weights": [7]
+    },
+    {
+      "name": "D",
+      "neighbors": ["E"],
+      "weights": [8]
+    },
+    {
+      "name": "E",
+      "neighbors": [],
+      "weights": []
+    },
+    {
+      "name": "F",
+      "neighbors": ["A", "B", "C", "D", "E"],
+      "weights": [20, 20, 20, 20, 20]
+    }
+]}

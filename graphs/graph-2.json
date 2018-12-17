@@ -1,0 +1,58 @@
+{
+  "nodes":[
+    {
+      "name": "A",
+      "neighbors": ["B", "E"],
+      "weights": [3, 10]
+    },
+    {
+      "name": "B",
+      "neighbors": ["C", "A", "G"],
+      "weights": [5]
+    },
+    {
+      "name": "C",
+      "neighbors": ["D"],
+      "weights": [7]
+    },
+    {
+      "name": "D",
+      "neighbors": ["E"],
+      "weights": [8]
+    },
+    {
+      "name": "E",
+      "neighbors": ["G", "I"],
+      "weights": [1, 5]
+    },
+    {
+      "name": "F",
+      "neighbors": ["A", "B", "C", "D", "E"],
+      "weights": [20, 20, 20, 20, 20]
+    },
+    {
+      "name": "G",
+      "neighbors": ["D", "E"],
+      "weights": [4, 10]
+    },
+    {
+      "name": "H",
+      "neighbors": ["B", "C"],
+      "weights": [9, 5]
+    },
+    {
+      "name": "I",
+      "neighbors": ["G", "E"],
+      "weights": [4, 10]
+    },
+    {
+      "name": "J",
+      "neighbors": ["A", "E"],
+      "weights": [12, 1]
+    },
+    {
+      "name": "k",
+      "neighbors": ["G", "F"],
+      "weights": [9, 5]
+    }
+  ]}

@@ -1,0 +1,23 @@
+{
+  "nodes":[
+    {
+      "name": "A",
+      "neighbors": ["B", "C"],
+      "weights": [10, 10]
+    },
+    {
+      "name": "B",
+      "neighbors": ["C"],
+      "weights": [2]
+    },
+    {
+      "name": "C",
+      "neighbors": [],
+      "weights": []
+    },
+    {
+      "name": "D",
+      "neighbors": ["A", "B", "C"],
+      "weights": [1, 2, 5]
+    }
+]}
